@@ -4,6 +4,9 @@ The aim of this fork is to provide users with a single line bash script to run t
 
 ## Citation
 I recommend that you cite the original [Haplomerger2 paper](https://www.ncbi.nlm.nih.gov/pubmed/28407147 "Huang et al. 2017") if you use this script.
+
+* Shengfeng Huang, et al. HaploMerger2: rebuilding both haploid sub-assemblies from a heterozygous animal diploid genome assembly.
+
 Depending on the soft-masking strategy deployed (see Inputs below), the masking software should also be cited.
 
 ## Inputs
