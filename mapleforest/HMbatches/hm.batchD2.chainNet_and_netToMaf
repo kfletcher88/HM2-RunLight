@@ -6,7 +6,7 @@
 
 #### setting variables
 name=$1								# the species_name or the prefix of the genome file name
-threads=1							# the number of cpu cores to use (default=1)
+threads=$2							# the number of cpu cores to use (default=1)
 
 ###################################################################################################
 #### running

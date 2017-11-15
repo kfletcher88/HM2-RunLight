@@ -6,7 +6,7 @@
 
 #### setting variables
 name=$1               # the species_name or the prefix of the genome file name
-threads=1             # the number of cpu cores to use (default=1)
+threads=$2             # the number of cpu cores to use (default=1)
 identity=85           # output only lastz alignments >= $identity (default=85 for tandem removal)
                       # normally, you do not need to change identity because the program will optimize it
 radius=2500           # def=2500bp for tandem removal, good for removing 2.5kb tandem assembly errors
