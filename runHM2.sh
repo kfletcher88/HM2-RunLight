@@ -186,7 +186,7 @@ fi
 
 cd ../
 if [[ -z $NoClean1 && -z $NoClean2 ]]; then
-rm HM2temp
+rm -R HM2temp
 exit
 else
 	if [[ -n $NoClean1 ]]; then
